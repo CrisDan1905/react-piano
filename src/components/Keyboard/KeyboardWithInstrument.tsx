@@ -1,4 +1,4 @@
-import { withInstrument } from '../../adapters/Soundfont/withInstrumentForwardedRef'
+import { withInstrument } from '../../adapters/Soundfont/withInstrumentBasedOnHook'
 import { useInstrument } from '../../state/Instrument'
 import { useAudioContext } from '../AudioContextProvider'
 import { Keyboard } from './Keyboard'
